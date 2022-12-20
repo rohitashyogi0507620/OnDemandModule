@@ -25,4 +25,11 @@
         android:textSize="30dp"
         android:textStyle="bold" />
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/btnSharpCell"
+        android:onClick="fun_sharpcell"
+        android:layout_height="wrap_content"
+        android:text="Start SharpCell Module"></com.google.android.material.button.MaterialButton>
+
 </LinearLayout>

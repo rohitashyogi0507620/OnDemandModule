@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -33,6 +36,11 @@ android {
     dynamicFeatures = [':dynamicposp']
 
 
+    buildFeatures {
+        dataBinding true
+    }
+
+
 }
 
 dependencies {
@@ -46,5 +54,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.google.android.play:feature-delivery-ktx:2.0.1'
     implementation 'com.google.android.play:feature-delivery:2.0.1'
+
+
+    implementation 'com.github.aabhasr1:OtpView:v1.1.2-ktx' // kotlin
+    implementation 'com.github.rohitashyogi0507620:ProbusFrontEnd:1.052'
+
+
+    implementation platform('com.google.firebase:firebase-bom:28.3.0')
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+
+    implementation "com.enparadigm.sharpsell:sdk:probus-1.0.0"
+
 
 }

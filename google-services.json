@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783290613103",
+    "project_id": "dynamicmoduledemo",
+    "storage_bucket": "dynamicmoduledemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783290613103:android:c6133cb51a563e22973c9a",
+        "android_client_info": {
+          "package_name": "com.onlineaavedan.dynamicmoduledemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783290613103-turegc2p71cv58n3vnvnv3tvgvn86m3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1sU1Rt7QNDEu3mMQY07A_BgR1g9S-NUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783290613103-turegc2p71cv58n3vnvnv3tvgvn86m3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
